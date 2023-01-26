@@ -53,7 +53,6 @@ article img {
 }
 
 article h2 {
-  color: var(--main-color);
   margin: 10px;
   font-size: 1.5em;
   font-weight: 400;
@@ -61,7 +60,6 @@ article h2 {
 
 article p {
   margin: 10px;
-  color: var(--text-cor-cinza);
 }
 
 p {
@@ -161,4 +159,14 @@ nav , .divHeader{
     header li {
         padding: 12px 5px;
     }
+}
+
+.dark{
+  background-color: #1B262C;
+  color: #BBE1FA;
+}
+
+.ligth{
+  background-color: #E23E57;
+  color: #311D3F;
 }
